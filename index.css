@@ -35,6 +35,12 @@ input[type="password"] {
     border: 1px solid #ccc;
     border-radius: 4px;
 }
+.Cambiar_Pagina{
+     background-color: rgb(17, 80, 135);
+     display: flex;
+     gap: 15px;
+     padding: 0;
+}
 
 input[type="submit"] {
     background-color: #007bff;
