@@ -39,12 +39,17 @@ input[type="password"] {
      background-color: #958ead;
      display: flex;
      gap: 300px;
-     padding: 0;
+     padding: 15px 0;
+     justify-content: center;
 }
 main div a{ 
    color: #fff;
    text-decoration: none;
    font-size: 1.7rem;
+   font-weight: bold; /*distancia vertical de las letras*/
+}
+.Cambiar_Paginas a:hover{
+    color: #47a58f;
 }
 
 input[type="submit"] {
