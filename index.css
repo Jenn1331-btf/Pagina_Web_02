@@ -10,7 +10,7 @@ header {
     text-align: center;
 }
 
-main {
+.Iniciar_Sesion {
     max-width: 600px;
     margin: 2rem auto;
     padding: 1rem;
@@ -35,11 +35,16 @@ input[type="password"] {
     border: 1px solid #ccc;
     border-radius: 4px;
 }
-.Cambiar_Pagina{
-     background-color: rgb(17, 80, 135);
+.Cambiar_Paginas{
+     background-color: #958ead;
      display: flex;
-     gap: 15px;
+     gap: 300px;
      padding: 0;
+}
+main div a{ 
+   color: #fff;
+   text-decoration: none;
+   font-size: 1.7rem;
 }
 
 input[type="submit"] {
