@@ -3,7 +3,7 @@ body {
     background-color: #f4f4f4;
 }
 
-header {
+.Titulo-Inicio {
     background-color: #333;
     color: #fff;
     padding: 1rem;
@@ -29,7 +29,10 @@ label {
 }
 
 input[type="email"],
-input[type="password"] {
+input[type="password"],
+input[type="Apellido Materno"],
+input[type="Apellido Paterno"],
+input[type="nombre completo"] {
     width: 100%;
     padding: 0.5rem;
     border: 1px solid #ccc;
@@ -75,7 +78,8 @@ input[type="submit"]:hover {
     max-width: 600px;
     margin: 2rem auto;
     padding: 1rem;
-    background-color: #fff;
+    font-size: 1.1rem;
+    background-color: #950b93;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
 
@@ -89,4 +93,9 @@ input[type="submit"]:hover {
     z-index: -1; /*el numero negativo lo manda al fondo de los textos*/
     filter: brightness(60%); /*lo oscurece un poco para que se puedan leer los textos sin problemas*/
 }
+.Titulo-Crear-Cuenta{
+    text-align: center;
+    color: #333;
+}
+
 
