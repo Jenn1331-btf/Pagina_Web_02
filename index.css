@@ -98,14 +98,14 @@ input[type="submit"]:hover {
     text-align: center;
     color: #333;
 }
-.Contenedor_Formulario_video .video-fondo{ 
+.Contenedor_Formulario_Video .video-fondo{ 
     position: absolute;
     top: 0;
     left: 0;
     width: 100%;
     height: 100%;
     object-fit: cover;
-    z-index: 1; /* Asegura que el video esté detrás del formulario */
+    z-index: -1; /* Asegura que el video esté detrás del formulario */
     filter: brightness(60%); /* Opcional: oscurece el video para mejorar la legibilidad del formulario */
 }
 
