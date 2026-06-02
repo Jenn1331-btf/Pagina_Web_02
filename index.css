@@ -78,18 +78,19 @@ input[type="submit"]:hover {
     border-radius: 8px;
 }
 .Contenedor_Crear_Cuenta{
-    max-width: 600px;
-    margin: 2rem auto;
-    padding: 1rem;
+    width: 100%;
+    margin: 0;
+    padding: 1rem 2rem;
     font-size: 1.1rem;
     background-color: #950b93;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    box-sizing: border-box;
 }
 
 .Contenedor_Formulario_Video{
     position: relative;
     width: 100%;
-    min-height: calc(100vh - 150px); /* Ajusta según el tamaño de tu encabezado y otros elementos */
+    min-height: calc(100vh - 60px); /* Ajusta según el tamaño de tu encabezado y otros elementos */
     display: flex;
     justify-content: center;
     align-items: center;
@@ -108,6 +109,12 @@ input[type="submit"]:hover {
     object-fit: cover;
     z-index: -1; /* Asegura que el video esté detrás del formulario */
     filter: brightness(60%); /* Opcional: oscurece el video para mejorar la legibilidad del formulario */
+}
+.Body_Crear_Cuenta{
+   font-family: Arial, sans-serif;
+   background-color: #f4f4f4;
+   margin: 0;
+   padding: 0;
 }
 
 
