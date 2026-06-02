@@ -72,11 +72,13 @@ input[type="submit"]:hover {
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
 .Contenedor_Crear_Cuenta{
-    background-color: #333;
-    color: #fff;
+    max-width: 600px;
+    margin: 2rem auto;
     padding: 1rem;
-    text-align: center;
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
+
 .video-fondo{ 
     position: fixed; /*se quede pegado en la pantalla aunque bajes*/
     top: 0;
@@ -87,3 +89,4 @@ input[type="submit"]:hover {
     z-index: -1; /*el numero negativo lo manda al fondo de los textos*/
     filter: brightness(60%); /*lo oscurece un poco para que se puedan leer los textos sin problemas*/
 }
+
